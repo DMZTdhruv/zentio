@@ -1,1 +1,59 @@
 .env
+/server/bin/
+/server/tmp/
+*.exe
+*.out
+*.app
+*.bin
+
+# Logs
+/server/tmp/build-errors.log
+*.log
+
+# OS-Specific Files
+.DS_Store
+Thumbs.db
+
+# Editor & IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Go Dependencies
+/go.sum
+/go/pkg/
+/server/vendor/
+
+# Compiled Go files
+*.test
+*.a
+
+# Temporary or cached files
+*.tmp
+*.bak
+*.swp
+*.swo
+*.lock
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.production
+.env.test
+
+# Debug & Build Artifacts
+/server/tmp/main
+/server/tmp/*.pid
+/server/tmp/*.sock
+
+# Makefile Artifacts
+/server/Makefile~
+/server/GNUmakefile~
+
+# Client Files (If using JS/React in `client/`)
+/client/node_modules/
+/client/.next/
+/client/.nuxt/
+/client/dist/
+/client/build/
