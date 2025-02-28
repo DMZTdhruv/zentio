@@ -1,0 +1,12 @@
+# Air configuration for Go Fiber
+root = "."
+tmp_dir = "tmp"
+
+[build]
+  cmd = "go build -o tmp/main cmd/main.go"
+  bin = "tmp/main"
+  exclude_dir = ["tmp", "vendor"]
+  delay = 1000
+
+[log]
+  time = true
